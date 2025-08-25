@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WELCOME</title>
+  <!-- Google Font: Poppins SemiBold -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+    .marquee {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    .marquee span {
+      display: inline-block;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600; /* SemiBold */
+      font-size: 2.5rem;
+      color: #FA70AC;
+      padding-right: 2rem;
+      animation: moveText 15s linear infinite;
+    }
+    @keyframes moveText {
+      from { transform: translateX(0%); }
+      to { transform: translateX(-50%); }
+    }
+  </style>
+</head>
+<body>
+  <div class="marquee">
+    <span>WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME </span>
+    <span>WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME </span>
+  </div>
+</body>
+</html>
